@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+body {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(80deg, #F9A826, #FFCC78);
+}
+body header .nav-desktop {
+  display: none;
+  margin-right: 2rem;
+}
+body header .nav-desktop ul {
+  list-style: none;
+  display: flex;
+}
+body header .nav-desktop ul li {
+  padding: 0.5rem;
+  margin: 0 1rem;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+body header .nav-desktop ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header .nav-desktop ul li:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+body header .logo {
+  font-weight: bold;
+  width: 4rem;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+}
+body header .menu-hamburguer {
+  width: 4rem;
+}
+body header .menu-hamburguer .hamburguer-btn {
+  width: 3rem;
+}
+body header .menu-hamburguer .hamburguer-btn .line {
+  width: 3rem;
+  height: 0.5rem;
+  color: black;
+}
+body .title {
+  margin-top: 0;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(80deg, #F9A826, #FFCC78);
+  border-radius: 0 0 50% 50%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  text-align: center;
+}
+body .title h1 {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+body .title h1 .thin {
+  font-weight: normal;
+}
+body .title .main-img {
+  width: 12rem;
+  height: 18vh;
+  position: relative;
+  top: 5rem;
+}
+body .services {
+  margin-top: 3rem;
+}
+body .services .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+body .services .card img {
+  width: 30%;
+}
+body .services .card p {
+  margin: 2rem;
+  font-weight: bold;
+}
+body .plans {
+  margin-top: 4rem;
+  text-align: center;
+}
+body .plans .cards-plan {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+body .plans .cards-plan .card-plan {
+  padding: 1rem;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+body .plans .cards-plan .card-plan .recomended {
+  width: 11rem;
+  background-color: #19A280;
+  color: #fafafa;
+  position: relative;
+  left: 8rem;
+  top: 1rem;
+  font-size: 0.9rem;
+  transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+}
+body .plans .cards-plan .card-plan h5 {
+  align-self: center;
+}
+body .plans .cards-plan .card-plan ul {
+  list-style: none;
+  font-weight: bold;
+  margin-left: 0;
+  padding-left: 0;
+}
+body .plans .cards-plan .card-plan ul li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body .plans .cards-plan .card-plan ul .disabled {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+body .plans .cards-plan .card-plan button {
+  background-color: #F9A826;
+  width: 70%;
+  height: 8vh;
+  color: #fafafa;
+  margin: 0 auto;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+body .plans .cards-plan .card-plan .price {
+  font-size: 2rem;
+  color: #19A280;
+  font-weight: bold;
+}
+body .app {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4rem;
+}
+body .app .content {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+body .app .content img {
+  width: 60%;
+}
+body .app .content .text {
+  width: 50%;
+}
+body footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(45deg, #F9A826, #FFCC78);
+  border-radius: 50% 50% 0 0;
+  -webkit-border-radius: 50% 50% 0 0;
+  -moz-border-radius: 50% 50% 0 0;
+  -ms-border-radius: 50% 50% 0 0;
+  -o-border-radius: 50% 50% 0 0;
+  color: #fafafa;
+  font-weight: bolder;
+}
+body footer h6 {
+  font-size: 1.2rem;
+}
+body footer .copy {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+body footer .copy a {
+  color: #fafafa;
+}
+body .mobile-menu {
+  position: fixed;
+  z-index: 1;
+  background: linear-gradient(45deg, #F9A826, #FFCC78);
+  width: 80%;
+  text-align: center;
+  font-weight: bolder;
+  left: 700px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+body .mobile-menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+body .mobile-menu ul li {
+  margin: 1rem;
+}
+body .open {
+  left: 10vh;
+}
+
+@media (min-width: 600px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    display: none;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+  body header .nav-desktop {
+    display: block;
+  }
+  body .title {
+    height: 70vh;
+  }
+  body .title h1 {
+    font-size: 2rem;
+  }
+  body .title .main-img {
+    width: 50rem;
+    height: 20rem;
+  }
+  body .services {
+    margin-top: 8rem;
+    display: flex;
+  }
+  body .services .card {
+    width: 30%;
+    flex-direction: column;
+    height: 45vh;
+    margin: 3rem;
+    -webkit-box-shadow: 10px 10px 5px -5px #dbd8db;
+    -moz-box-shadow: 10px 10px 5px -5px #dbd8db;
+    box-shadow: 10px 10px 5px -5px #dbd8db;
+  }
+  body .services .card img {
+    width: 70%;
+  }
+  body .plans {
+    margin: 0 auto;
+  }
+  body .plans .cards-plan {
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+  body .plans .cards-plan .card-plan {
+    width: 25%;
+    box-shadow: 10px 10px 5px -5px #dbd8db;
+  }
+  body .plans .cards-plan .card-plan .recomended {
+    width: 40rem;
+  }
+  body .app {
+    margin: 3rem auto;
+  }
+  body .app .content {
+    display: flex;
+    justify-content: center;
+    padding-left: 10rem;
+  }
+  body .app .content img {
+    width: 40%;
+  }
+  body .app .content .appstores {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
