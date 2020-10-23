@@ -1,11 +1,4 @@
-let menuBtn = document.querySelector('.hamburguer-btn');
-let menuMobile = document.querySelector('.mobile-menu');
 
-menuBtn.addEventListener('click', openMenu);
-
-function openMenu(){
-    menuMobile.classList.toggle('open');
-}
 
 window.sr = ScrollReveal();
 
@@ -14,15 +7,31 @@ sr.reveal('.services', {
     origin: 'bottom',
     distance: '-100px'
 });
-
-sr.reveal('.cards-plan', {
+sr.reveal('.left', {
     duration: 3000,
     origin: 'left',
     distance: '-100px'
 });
 
-sr.reveal('.app', {
+sr.reveal('.right', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+sr.reveal('.testimonial-card', {
     duration: 3000,
     origin: 'top',
+    distance: '-100px'
+});
+sr.reveal('.social', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+});
+sr.reveal('.header', {
+    duration: 3000,
+    origin: 'bottom',
     distance: '-100px'
 });

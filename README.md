@@ -1,5 +1,5 @@
-##Gym landing page.
+##Marketing Agency Landing Page
 
-Technologies: HTML, CSS, JavaScript, Animate.css, ScrollReveal.
+Technologies: HTML, CSS, Animate.css, ScrollReveal.
 
-URL: https://ivanalsc.github.io/fitness/
+URL: https://ivanalsc.github.io/thelab/
